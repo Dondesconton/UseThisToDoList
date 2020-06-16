@@ -23,6 +23,11 @@ body{
 #enter{
   font-family: monospace;
 }
+
+li button{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .buffer{
   display: flex;
   flex-direction: column;
