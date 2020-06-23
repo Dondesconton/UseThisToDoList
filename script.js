@@ -22,13 +22,13 @@ function createListElement() {
 }
 //Ads item to the ul
 
-/*function addListAfterClick() {
+function addListAfterClick() {
 	if (inputLength() > 0) {
 		createListElement();
 	}
-}*/
+}
 
-const addListAfterClick =()=>inputLenght()>0 ? createListElement():undefined;
+/*const addListAfterClick =()=>inputLenght()>0 ? createListElement():undefined;*/
 
 function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
